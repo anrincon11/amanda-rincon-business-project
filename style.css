@@ -105,7 +105,8 @@ input[type="search"] {
 }
 
 .blank-menu-header ul {
-    margin: 0;
+	width: 90%;
+    margin: auto;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
@@ -119,25 +120,11 @@ input[type="search"] {
 	color: #b7b7b7;
     text-decoration: none;
     margin: 4px;
-    padding: 5px 40px 5px 0px;
     font-weight: bold;
 	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-}
-
-.blank-menu-header ul li a {
-	color: #b7b7b7;
-    text-decoration: none;
-    margin: 4px;
-    font-weight: bold;
-	font-family: 'Lato', sans-serif;
-	padding: 5px 0px 5px 40px;
+	padding: 5px 40px 5px 40px;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-}
-
-.blank-menu-header ul li:first-child a {
-    padding: 5px 0px 5px 0px;
 }
 
 .blank-menu-header ul li a:hover {
