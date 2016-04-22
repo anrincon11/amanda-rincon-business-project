@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 		<section class="row">
+
 			<div class="twelve columns">
 
 				<h1>Welcome to Love By Designs</h1>
