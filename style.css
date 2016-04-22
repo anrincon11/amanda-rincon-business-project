@@ -99,6 +99,9 @@ input[type="search"] {
 
 .blank-menu-header {
 	margin-top: 20px;
+	padding: 10px 0;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 }
 
 .blank-menu-header ul {
