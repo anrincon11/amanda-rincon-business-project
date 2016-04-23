@@ -140,6 +140,20 @@ input[type="search"] {
 	height: auto;
 }
 
+/*--- Home Page --- */
+
+#hero {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	z-index: -999999999;
+	overflow-y: hidden;
+}
+
+#hero img {
+	width: 100%;
+}
+
 /*--- Pricing Page --- */
 
 #pricing {
