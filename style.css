@@ -139,3 +139,11 @@ input[type="search"] {
 	width: 100%;
 	height: auto;
 }
+
+/*--- Pricing Page --- */
+
+.nine.columns {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
