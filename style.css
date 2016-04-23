@@ -97,14 +97,14 @@ input[type="search"] {
 
 /*--- Menu --- */
 
-.blank-menu-header {
+.menu-menu-container {
 	margin-top: 20px;
 	padding: 10px 0;
 	border-top: 1px solid #000000;
 	border-bottom: 1px solid #000000;
 }
 
-.blank-menu-header ul {
+.menu-menu-container ul {
 	width: 90%;
     margin: auto;
     padding: 0;
@@ -112,11 +112,11 @@ input[type="search"] {
     list-style-image: none;
 }
 
-.blank-menu-header li {
+.menu-menu-container li {
     display: inline;
 }
 
-.blank-menu-header ul li a {
+.menu-menu-container ul li a {
 	color: #b7b7b7;
     text-decoration: none;
     margin: 4px;
@@ -127,11 +127,11 @@ input[type="search"] {
 	letter-spacing: 4px;
 }
 
-.blank-menu-header ul li a:hover {
+.menu-menu-container ul li a:hover {
     color: #55b4b0;
 }
 
-.blank-menu-header ul li.current-menu-item a {
+.menu-menu-container ul li.current-menu-item a {
 	color: #55b4b0;
 }
 
