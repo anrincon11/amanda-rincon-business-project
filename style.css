@@ -142,8 +142,11 @@ input[type="search"] {
 
 /*--- Pricing Page --- */
 
-.nine.columns {
-	width: 80%;
-	margin: auto;
+#pricing {
+	padding: 0 30px;
+	margin: 50px 0;
+}
+
+.four.columns {
 	text-align: center;
 }
