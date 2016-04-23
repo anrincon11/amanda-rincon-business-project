@@ -6,7 +6,7 @@ Template name: Three Column
 
 <?php get_header(); ?>
 
-<?php get_nav(); ?>
+<?php wp_nav_menu(); ?>
 
 <section id="pricing" class="row">
 
