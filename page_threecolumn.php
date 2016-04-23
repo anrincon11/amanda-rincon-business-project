@@ -6,6 +6,8 @@ Template name: Three Column
 
 <?php get_header(); ?>
 
+<?php get_nav(); ?>
+
 <section id="pricing" class="row">
 
 	<div class="four columns">

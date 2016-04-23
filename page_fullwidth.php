@@ -4,18 +4,10 @@ Template name: Full Width
 */
 ?>
 
-<?php
-/*
-Template name: Full Width
-*/
-?>
-
-<?php
-/*
-Template name: Full Width
-*/
-?>
 <?php get_header(); ?>
+
+<?php wp_nav_menu(); ?>
+
 <section class="row full-width-class">
     <div class="twelve columns">
     <!-- BEGIN PAGE PHP -->

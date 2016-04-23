@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<?php wp_nav_menu(); ?>
+
 	<section class="row">
 
 		<div class="two columns">

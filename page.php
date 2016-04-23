@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<?php wp_nav_menu(); ?>
+
     <div class="row">
 <!-- BEGIN SIDEBAR -->
 		<div class="three columns">

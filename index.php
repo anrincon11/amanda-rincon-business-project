@@ -4,6 +4,8 @@
 		<img src="<?php echo get_template_directory_uri () . '/img/proposal.jpg'; ?>" alt="proposal" />
 	</figure>
 
+	<?php wp_nav_menu(); ?>
+	
 	<section class="row">
 
 		<div class="twelve columns">

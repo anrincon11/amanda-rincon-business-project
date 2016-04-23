@@ -3,6 +3,8 @@
 
 get_header(); ?>
 
+<?php wp_nav_menu(); ?>
+
     <div class="row">
         <div class="eight columns">
 			<h1><?php printf(__('Search Results for: %s'), '<span>' . get_search_query() . '</span>' ); ?></h1>
