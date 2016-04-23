@@ -2,10 +2,6 @@
 
 		<section class="row">
 
-			<figure>
-				<img src="img/proposal.png" alt="proposal" />
-			</figure>
-
 			<div class="twelve columns">
 
 				<h1>Welcome to Love By Designs</h1>
