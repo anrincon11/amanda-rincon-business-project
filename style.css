@@ -105,8 +105,8 @@ input[type="search"] {
 	margin: auto;
 	margin-top: 20px;
 	padding: 10px 0;
-	border-top: 1px solid #000000;
-	border-bottom: 1px solid #000000;
+	border-top: 1px solid #b7b7b7;
+	border-bottom: 1px solid #b7b7b7;
 	text-align: justify;
 }
 
@@ -123,7 +123,7 @@ input[type="search"] {
 }
 
 .menu-menu-container ul li a {
-	color: #b7b7b7;
+	color: #666666;
     text-decoration: none;
 	font-size: 2.75rem;
 	text-transform: uppercase;
@@ -204,12 +204,23 @@ input[type="search"] {
 /*--- Pricing Page --- */
 
 #pricing {
-	padding: 0 30px;
-	margin: 50px 0;
+	padding: 0;
 }
 
 .four.columns {
 	text-align: center;
+	border-left: 1px solid #b7b7b7;
+	padding-left: 40px;
+	margin-bottom: 100px;
+}
+
+.four.columns:first-child {
+	border-left: none;
+	padding-left: 0;
+}
+
+.four.columns p {
+	margin: 0;
 }
 
 /*--- Footer --- */
