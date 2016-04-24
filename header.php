@@ -4,8 +4,11 @@
 
 	<meta charset="utf-8">
     <title><?php bloginfo('name'); ?></title>
-<?php wp_head(); ?>
+
+	<?php wp_head(); ?>
+
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+	<link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet" type="text/css" />
 
 </head>
 <body>

@@ -18,11 +18,20 @@ Text Domain: amanda_rincon_business_project
     font-size: 16px;
 }
 
+body {
+	font-family: 'News Cycle', sans-serif;
+}
+
 h1 {
 	font-size: 4rem;
 	color: #d65076;
 	text-align: center;
 	margin-top: 30px;
+}
+
+p {
+	font-size: 2.5rem;
+	color: #666666;
 }
 
 /*--- Search Bar --- */
@@ -84,14 +93,15 @@ input[type="search"] {
 	padding: 10px 0;
 	border-top: 1px solid #000000;
 	border-bottom: 1px solid #000000;
+	text-align: justify;
 }
 
 .menu-menu-container ul {
-	width: 90%;
-    margin: auto;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
+	width: 90%;
+	margin: auto;
 }
 
 .menu-menu-container li {
@@ -101,21 +111,9 @@ input[type="search"] {
 .menu-menu-container ul li a {
 	color: #b7b7b7;
     text-decoration: none;
-    margin: 4px;
-	font-size: 2.25rem;
-    font-weight: bold;
-	font-family: 'Lato', sans-serif;
-	padding: 5px 102px 5px 102px;
+	font-size: 2.75rem;
 	text-transform: uppercase;
-	letter-spacing: 4px;
-}
-
-.menu-menu-container ul li:first-child a {
-	padding-left: 0;
-}
-
-.menu-menu-container ul li:last-child a {
-	padding-right: 0;
+	letter-spacing: 2px;
 }
 
 .menu-menu-container ul li a:hover {
@@ -187,8 +185,6 @@ input[type="search"] {
 
 #about p {
 	text-align: center;
-	font-size: 2.25rem;
-	color: #666666;
 }
 
 /*--- Pricing Page --- */
