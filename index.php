@@ -8,12 +8,16 @@
 	<img src="<?php echo get_template_directory_uri () . '/img/logo-shadow.png'; ?>" alt="logo" />
 </figure>
 
-<div id="social">
-	<img src="<?php echo get_template_directory_uri () . '/img/facebook-01.png'; ?>" alt="logo" />
-	<img src="<?php echo get_template_directory_uri () . '/img/twitter-01.png'; ?>" alt="logo" />
-	<img src="<?php echo get_template_directory_uri () . '/img/instagram-01.png'; ?>" alt="logo" />
-	<img src="<?php echo get_template_directory_uri () . '/img/pinterest-01.png'; ?>" alt="logo" />
-</div>
+<section id="social">
+	<img src="<?php echo get_template_directory_uri () . '/img/facebook-01.png'; ?>" alt="facebook" />
+	<img src="<?php echo get_template_directory_uri () . '/img/twitter-01.png'; ?>" alt="instagram" />
+	<img src="<?php echo get_template_directory_uri () . '/img/instagram-01.png'; ?>" alt="twitter" />
+	<img src="<?php echo get_template_directory_uri () . '/img/pinterest-01.png'; ?>" alt="pinterest" />
+</section>
+
+<section id="arrow">
+	<img src="<?php echo get_template_directory_uri () . '/img/arrow.png'; ?>" alt="arrow" />
+</section>
 
 <?php wp_nav_menu(); ?>
 
