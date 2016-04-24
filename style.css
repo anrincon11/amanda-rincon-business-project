@@ -20,6 +20,9 @@ Text Domain: amanda_rincon_business_project
 
 body {
 	font-family: 'News Cycle', sans-serif;
+	background-image: url( 'img/logo-transparent-crop.png' );
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
 }
 
 h1,
@@ -212,7 +215,8 @@ input[type="search"] {
 	text-align: center;
 	border-left: 1px solid #b7b7b7;
 	padding-left: 40px;
-	margin-bottom: 100px;
+	padding-top: 20px;
+	height: 350px;
 }
 
 .four.columns:first-child {
@@ -228,5 +232,5 @@ input[type="search"] {
 
 footer {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 120px;
 }
