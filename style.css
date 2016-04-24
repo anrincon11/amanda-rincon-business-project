@@ -134,6 +134,12 @@ input[type="search"] {
 	width: 100%;
 }
 
+#logo {
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+
 #about h1 {
 	margin: 60px 0;
 }
