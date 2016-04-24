@@ -78,6 +78,8 @@ input[type="search"] {
 /*--- Menu --- */
 
 .menu-menu-container {
+	width: 85%;
+	margin: auto;
 	margin-top: 20px;
 	padding: 10px 0;
 	border-top: 1px solid #000000;
@@ -100,11 +102,20 @@ input[type="search"] {
 	color: #b7b7b7;
     text-decoration: none;
     margin: 4px;
+	font-size: 2.25rem;
     font-weight: bold;
 	font-family: 'Lato', sans-serif;
-	padding: 5px 40px 5px 40px;
+	padding: 5px 102px 5px 102px;
 	text-transform: uppercase;
 	letter-spacing: 4px;
+}
+
+.menu-menu-container ul li:first-child a {
+	padding-left: 0;
+}
+
+.menu-menu-container ul li:last-child a {
+	padding-right: 0;
 }
 
 .menu-menu-container ul li a:hover {
