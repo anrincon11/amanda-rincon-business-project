@@ -2,6 +2,8 @@
 
 <?php wp_nav_menu(); ?>
 
+<div class="container">
+
 	<section class="row">
 
 		<div class="two columns">

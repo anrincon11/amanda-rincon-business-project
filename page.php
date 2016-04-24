@@ -2,10 +2,14 @@
 
 <?php wp_nav_menu(); ?>
 
+<div class="container">
     <div class="row">
 <!-- BEGIN SIDEBAR -->
 		<div class="three columns">
 			<?php get_sidebar(); ?>
+		</div>
+		<div class="three columns">
+			<?php get_search_form(); ?>
 		</div>
 <!-- END SIDEBAR -->
 		<div class="nine columns">

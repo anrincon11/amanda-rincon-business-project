@@ -5,6 +5,8 @@ get_header(); ?>
 
 <?php wp_nav_menu(); ?>
 
+<div class="container">
+
 <section class="row">
     <div class="twelve columns">
         <?php if ( have_posts() ) : ?>

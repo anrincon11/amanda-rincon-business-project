@@ -8,6 +8,8 @@ Template name: Three Column
 
 <?php wp_nav_menu(); ?>
 
+<div class="container">
+
 <section id="pricing" class="row">
 
 	<div class="four columns">
