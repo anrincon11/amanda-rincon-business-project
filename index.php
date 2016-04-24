@@ -1,21 +1,21 @@
 <?php get_header(); ?>
 
-<section class="row">
-	<figure id="hero">
-		<img src="<?php echo get_template_directory_uri () . '/img/proposal.png'; ?>" alt="proposal" />
+<header>
+		<figure id="hero">
+			<img src="<?php echo get_template_directory_uri () . '/img/proposal.png'; ?>" alt="proposal" />
+		</figure>
+
+	<figure id="logo">
+		<img src="<?php echo get_template_directory_uri () . '/img/logo-shadow.png'; ?>" alt="logo" />
 	</figure>
-</section>
 
-<figure id="logo">
-	<img src="<?php echo get_template_directory_uri () . '/img/logo-shadow.png'; ?>" alt="logo" />
-</figure>
-
-<section id="social">
-	<img src="<?php echo get_template_directory_uri () . '/img/facebook-01.png'; ?>" alt="facebook" />
-	<img src="<?php echo get_template_directory_uri () . '/img/twitter-01.png'; ?>" alt="instagram" />
-	<img src="<?php echo get_template_directory_uri () . '/img/instagram-01.png'; ?>" alt="twitter" />
-	<img src="<?php echo get_template_directory_uri () . '/img/pinterest-01.png'; ?>" alt="pinterest" />
-</section>
+	<section id="social">
+		<img src="<?php echo get_template_directory_uri () . '/img/facebook-01.png'; ?>" alt="facebook" />
+		<img src="<?php echo get_template_directory_uri () . '/img/twitter-01.png'; ?>" alt="instagram" />
+		<img src="<?php echo get_template_directory_uri () . '/img/instagram-01.png'; ?>" alt="twitter" />
+		<img src="<?php echo get_template_directory_uri () . '/img/pinterest-01.png'; ?>" alt="pinterest" />
+	</section>
+</header>
 
 <section id="arrow" class="fix">
 	<img src="<?php echo get_template_directory_uri () . '/img/arrow.png'; ?>" alt="arrow" />
