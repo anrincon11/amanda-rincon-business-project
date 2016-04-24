@@ -9,10 +9,10 @@
 </figure>
 
 <div id="social">
-	<img src="<?php echo get_template_directory_uri () . '/img/facebook.png'; ?>" alt="logo" />
-	<img src="<?php echo get_template_directory_uri () . '/img/twitter.png'; ?>" alt="logo" />
-	<img src="<?php echo get_template_directory_uri () . '/img/instagram.png'; ?>" alt="logo" />
-	<img src="<?php echo get_template_directory_uri () . '/img/pinterest.png'; ?>" alt="logo" />
+	<img src="<?php echo get_template_directory_uri () . '/img/facebook-01.png'; ?>" alt="logo" />
+	<img src="<?php echo get_template_directory_uri () . '/img/twitter-01.png'; ?>" alt="logo" />
+	<img src="<?php echo get_template_directory_uri () . '/img/instagram-01.png'; ?>" alt="logo" />
+	<img src="<?php echo get_template_directory_uri () . '/img/pinterest-01.png'; ?>" alt="logo" />
 </div>
 
 <?php wp_nav_menu(); ?>
