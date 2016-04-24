@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 
-<figure id="hero">
-	<img src="<?php echo get_template_directory_uri () . '/img/proposal.png'; ?>" alt="proposal" />
-</figure>
+<section class="row">
+	<figure id="hero">
+		<img src="<?php echo get_template_directory_uri () . '/img/proposal.png'; ?>" alt="proposal" />
+	</figure>
+</section>
 
 <figure id="logo">
 	<img src="<?php echo get_template_directory_uri () . '/img/logo-shadow.png'; ?>" alt="logo" />
@@ -15,7 +17,7 @@
 	<img src="<?php echo get_template_directory_uri () . '/img/pinterest-01.png'; ?>" alt="pinterest" />
 </section>
 
-<section id="arrow">
+<section id="arrow" class="fix">
 	<img src="<?php echo get_template_directory_uri () . '/img/arrow.png'; ?>" alt="arrow" />
 </section>
 

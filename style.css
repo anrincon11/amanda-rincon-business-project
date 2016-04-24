@@ -51,6 +51,10 @@ p {
 	color: #666666;
 }
 
+#container {
+	width: 100%;
+}
+
 /*--- Search Bar --- */
 
 #search-form {
@@ -151,9 +155,10 @@ input[type="search"] {
 #hero {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 	height: 100%;
-	overflow-y: hidden;
 	z-index: -999;
+	overflow: hidden;
 }
 
 #hero img {
@@ -187,15 +192,6 @@ input[type="search"] {
 	margin-right: 0;
 }
 
-#arrow {
-	width: 10%;
-	margin: auto;
-}
-
-#arrow img {
-	width: 100%;
-}
-
 #about h1 {
 	margin: 60px 0;
 }
@@ -204,11 +200,32 @@ input[type="search"] {
 	text-align: center;
 }
 
+#arrow img {
+	width: 100%;
+}
+
+@media (min-width: 300px) {
+	#arrow {
+		width: 0%;
+	}
+}
+
+@media (min-width: 1200px) {
+	#arrow {
+		width: 15%;
+	}
+	.fix{
+		position: absolute;
+		bottom: -20px;
+		left: 40%;
+	}
+}
+
 /*--- Pricing Page --- */
 
 #pricing {
 	padding: 0;
-	margin-top: 120px;
+	margin-top: 150px;
 }
 
 .four.columns {
@@ -232,5 +249,5 @@ input[type="search"] {
 
 footer {
 	text-align: center;
-	margin-top: 120px;
+	margin-top: 150px;
 }
