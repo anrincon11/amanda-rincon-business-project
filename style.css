@@ -211,7 +211,7 @@ header {
 	background-image: url( 'img/proposal.jpg' );
 	background-size: cover;
 	background-position: center top;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
 
 #logo {
@@ -237,7 +237,7 @@ header {
 }
 
 #about h1 {
-	margin: 80px 0;
+	margin: 95px 0;
 }
 
 #about p {

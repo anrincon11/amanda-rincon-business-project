@@ -20,7 +20,7 @@
 <?php wp_nav_menu(); ?>
 
 		<div id="about">
-			<h1>Welcome to Love By Designs</h1>
+			<h1>Welcome to Love By Designs!</h1>
 
 			<p>My name is Amanda Rincon, and I am the lead graphic and web designer. I started this business after discovering what my two passions are in life. I am a sucker for love and everything it encompasses, and I absolutely enjoy designing websites. So I figured, why not combine the two!</p>
 
