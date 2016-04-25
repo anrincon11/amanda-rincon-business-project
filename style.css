@@ -184,6 +184,12 @@ input[type="search"] {
 	}
 }
 
+@media (min-width: 600px) {
+	.menu-menu-container li {
+		padding: 0 32px;
+	}
+}
+
 /*--- Home Page --- */
 
 #hero {
