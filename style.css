@@ -196,6 +196,12 @@ input[type="search"] {
 	}
 }
 
+@media (min-width: 1200px) {
+	.menu-menu-container li {
+		padding: 0 53px;
+	}
+}
+
 /*--- Home Page --- */
 
 #hero {
@@ -271,6 +277,9 @@ input[type="search"] {
 		position: absolute;
 		bottom: -20px;
 		left: 40%;
+	}
+	#social img {
+		width: 6%;
 	}
 }
 
