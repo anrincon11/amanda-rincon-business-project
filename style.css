@@ -250,6 +250,8 @@ header {
 #posts {
 	border-left: 1px solid #b7b7b7;
 	padding-left: 40px;
+	width: 75%;
+    margin-left: 20px;
 }
 
 #posts h3 {
