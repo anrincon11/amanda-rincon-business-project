@@ -204,18 +204,14 @@ input[type="search"] {
 
 /*--- Home Page --- */
 
-#hero {
+header {
 	margin: 0;
 	padding: 0;
-	position: relative;
-	z-index: -999;
-	width: 100%;
-	height: 100%;
-	overflow-y: hidden;
-}
-
-#hero img {
-	width: 100%;
+	height: 100vh;
+	background-image: url( 'img/proposal.jpg' );
+	background-size: cover;
+	background-position: center top;
+	margin-bottom: 80px;
 }
 
 #logo {
@@ -252,17 +248,18 @@ input[type="search"] {
 	width: 100%;
 }
 
-#block {
-	background-color: #ffffff;
-}
-
 @media (min-width: 300px) {
 	#about {
 		width: 80%;
 		margin: auto;
 	}
 	#arrow {
-		width: 0%;
+		width: 30%;
+	}
+	.fix {
+		position: absolute;
+		bottom: -20px;
+		left: 40%;
 	}
 	#social img {
 		width: 10%;
@@ -272,34 +269,20 @@ input[type="search"] {
 	#social img:last-child {
 		margin-right: 0;
 	}
-	#block {
-		width: 0%;
+}
+
+@media (min-width: 600px) {
+	#arrow {
+		width: 12%;
+	}
+	.fix {
+		left: 44%;
 	}
 }
 
 @media (min-width: 1200px) {
-	#arrow {
-		width: 15%;
-	}
-	.fix{
-		position: absolute;
-		bottom: -20px;
-		left: 40%;
-	}
 	#social img {
 		width: 6%;
-	}
-	#block {
-		width: 100%;
-		height: 50px;
-		margin-top: -25px;
-	}
-}
-
-@media (min-width: 1500px) {
-	#block {
-		height: 80px;
-		margin-top: -75px;
 	}
 }
 

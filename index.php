@@ -1,9 +1,6 @@
 <?php get_header(); ?>
 
-	<div id="hero">
-		<img src="<?php echo get_template_directory_uri () . '/img/proposal-crop.jpg'; ?>" alt="proposal" />
-	</div>
-
+<header>
 	<figure id="logo">
 		<img src="<?php echo get_template_directory_uri () . '/img/logo-shadow.png'; ?>" alt="logo" />
 	</figure>
@@ -15,11 +12,10 @@
 		<img src="<?php echo get_template_directory_uri () . '/img/pinterest-01.png'; ?>" alt="pinterest" />
 	</section>
 
-<section id="arrow" class="fix">
-	<img src="<?php echo get_template_directory_uri () . '/img/arrow.png'; ?>" alt="arrow" />
-</section>
-
-<div id="block"><!--Empty div for styling purposes--></div>
+	<section id="arrow" class="fix">
+		<img src="<?php echo get_template_directory_uri () . '/img/arrow.png'; ?>" alt="arrow" />
+	</section>
+</header>
 
 <?php wp_nav_menu(); ?>
 
