@@ -4,16 +4,15 @@
 
 <?php wp_nav_menu(); ?>
 
-<div class="container">
+<div id="blog" class="container">
 
 	<!-- BEGIN SIDEBAR -->
-	<div class="three columns">
+	<div id="sidebar" class="three columns">
 		<?php get_sidebar(); ?>
 	</div>
 	<!-- END SIDEBAR -->
 
 	<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
-    <div class="row">
 
 		<section id="posts" class="eight columns">
 
@@ -35,6 +34,5 @@
 
         </section>
 
-    </div>
 
 <?php get_footer(); ?>

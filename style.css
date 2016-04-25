@@ -82,7 +82,7 @@ p {
     border: none;
     text-align: center;
     padding: 5px;
-    background-color: #fff;
+    background-color: #efefef;
     margin: 0;
     min-height: 20px;
     border-top: 1px solid #b7b7b7;
@@ -102,7 +102,7 @@ input[type="search"] {
     width: 100%;
     border-radius: inherit;
     margin:0;
-    background-color: #fff;
+    background-color: #efefef;
 	-webkit-border-radius: 7px 0px 0px 7px;
 	border-radius: 7px 0px 0px 7px;
 }
@@ -233,6 +233,61 @@ header {
 		bottom: -20px;
 		left: 40%;
 	}
+}
+
+/*--- Blog Page --- */
+
+#blog {
+	width: 85%;
+	margin: auto;
+}
+
+#posts,
+#sidebar {
+	margin-top: 80px;
+}
+
+#posts {
+	border-left: 1px solid #b7b7b7;
+	padding-left: 40px;
+}
+
+#posts h3 {
+	font-family: 'News Cycle', sans-serif;
+	color: #d65076;
+}
+
+#posts p {
+	font-size: 20px;
+}
+
+#sidebar-logo {
+	width: 50%;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+#sidebar-logo img {
+	width: 100%;
+}
+
+#sidebar-social {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 70px;
+}
+
+#sidebar-social img {
+	width: 15%;
+	margin-right: 10px;
+}
+
+#sidebar-social img:last-child {
+	margin-right: 0;
+}
+
+#sidebar #search-form {
+	margin-bottom: 50px;
 }
 
 /*--- Pricing Page --- */
