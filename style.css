@@ -190,6 +190,12 @@ input[type="search"] {
 	}
 }
 
+@media (min-width: 1000px) {
+	.menu-menu-container li {
+		padding: 0 35px;
+	}
+}
+
 /*--- Home Page --- */
 
 #hero {
