@@ -293,12 +293,12 @@ header {
 	margin: auto;
 }
 
-#posts,
 #sidebar {
 	margin-top: 80px;
 }
 
 #posts {
+	padding-top: 80px;
 	border-left: 1px solid #b7b7b7;
 	padding-left: 40px;
 	width: 75%;
