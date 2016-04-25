@@ -61,6 +61,15 @@ p {
 	color: #666666;
 }
 
+a {
+	text-decoration: none;
+	color: #666666;
+}
+
+a:visited {
+	color: #666666;
+}
+
 #container {
 	width: 100%;
 }
@@ -257,6 +266,7 @@ header {
 #posts h3 {
 	font-family: 'News Cycle', sans-serif;
 	color: #d65076;
+	font-weight: bold;
 }
 
 #posts p {
