@@ -169,11 +169,22 @@ input[type="search"] {
 	height: auto;
 }
 
-/*--- Home Page --- */
-
-header {
-	height: 100%;
+@media (min-width: 300px) {
+	.menu-menu-container ul {
+		text-align: center;
+	}
+	.menu-menu-container li {
+		padding: 0 30px;
+	}
+	.menu-menu-container li:first-child {
+		padding-left: 0;
+	}
+	.menu-menu-container li:last-child {
+		padding-right: 0;
+	}
 }
+
+/*--- Home Page --- */
 
 #hero {
 	margin: 0;
@@ -206,17 +217,12 @@ header {
 	left: 50px;
 }
 
-#social img {
-	width: 6%;
-	margin-right: 40px;
-}
-
-#social img:last-child {
-	margin-right: 0;
+#about {
+	max-width: 1200px;
 }
 
 #about h1 {
-	margin: 60px 0;
+	margin: 80px 0;
 }
 
 #about p {
@@ -228,8 +234,20 @@ header {
 }
 
 @media (min-width: 300px) {
+	#about {
+		width: 80%;
+		margin: auto;
+	}
 	#arrow {
 		width: 0%;
+	}
+	#social img {
+		width: 10%;
+		margin-right: 40px;
+	}
+
+	#social img:last-child {
+		margin-right: 0;
 	}
 }
 
@@ -300,6 +318,13 @@ header {
 
 #sidebar #search-form {
 	margin-bottom: 50px;
+}
+
+@media (min-width: 300px) {
+	#posts img {
+		width: 100%;
+		height: auto;
+	}
 }
 
 /*--- Pricing Page --- */
